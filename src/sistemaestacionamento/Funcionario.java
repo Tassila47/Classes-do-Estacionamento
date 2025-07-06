@@ -21,11 +21,9 @@ public class Funcionario extends Usuario {
         this.codigo = codigo;
     }
 
-    // Você pode sobrescrever métodos herdados aqui se desejar implementar algo específico
     @Override
     public void cadastrar() {
-        // Implementação específica, se necessário
-        System.out.println("Funcionário cadastrado com sucesso.");
+        System.out.println("Funcionario cadastrado com sucesso.");
     }
 
     @Override
@@ -35,7 +33,7 @@ public class Funcionario extends Usuario {
 
     @Override
     public void excluir() {
-        System.out.println("Funcionário excluído.");
+        System.out.println("Funcionario excluido.");
     }
 
     @Override
@@ -45,6 +43,6 @@ public class Funcionario extends Usuario {
 
     @Override
     public void alterar() {
-        System.out.println("Dados do funcionário alterados.");
+        System.out.println("Dados do funcionario alterados.");
     }
 }
